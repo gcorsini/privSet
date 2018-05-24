@@ -1,11 +1,10 @@
+**PROTOTYPE** Currently, this extension is still in the early stage of a prototype.
+
 
 ![PrivSec Logo](icons/LogoPrivSec3.jpg "PrivSec Logo")
 
 
 # PrivSec: A browser extension that intuitively increases your privacy on Facebook
-
-
-**PROTOTYPE** Currently, this extension is still in the early stage of a prototype.
 
 
 ## What is PrivSec?
@@ -16,7 +15,7 @@ The goal is to provide a more intuitive and interactive way for users to set the
 An additional benefit is the fact the users increase their privacy awareness.
 
 
-## Where was and who created PrivSec?
+## Where was PrivSec created and by whom?
 
 
 PrivSec was created at the University of Fribourg in Switzerland.
