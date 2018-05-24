@@ -57,10 +57,6 @@
       "js": ["lib/jquery-3.3.1.js", "gui.js", "listsOfFriends.js"],
       "all_frames": true,
       "run_at": "document_idle"
-    },
-    {
-      "matches": ["*://*.facebook.com/settings"],
-      "js": ["settingsSetter.js"]
     }
   ]
 
