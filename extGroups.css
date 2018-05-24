@@ -1,0 +1,36 @@
+.standardGroupContainer {
+    width: 80px;
+    height: 120px;
+    border: 2px solid grey;
+    box-sizing: border-box;
+}
+
+.standardTitle {
+    color: black;
+    font-weight: bold;
+}
+
+.standardLight {
+    color: grey;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.tinyImages {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+#selected {
+    background-color: #4267b2;
+}
+
+#selectedWhite {
+    color: white;
+}
+
+.selectedLightgrey {
+    color: lightgrey;
+    font-weight: lighter;
+}

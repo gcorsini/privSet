@@ -1,0 +1,72 @@
+{
+  "manifest_version": 2,
+  "name": "PrivSec",
+  "version": "4.0",
+
+  "description": "Privacy security increased on Facebook through a more intuitive UI and feedback.",
+
+  "icons": {
+    "48": "icons/LogoPrivSec3square.jpg"
+  },
+
+  "permissions": [
+    "*://*.facebook.com/*", "storage"
+  ],
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*", "*://*.facebook.com/*"],
+      "js": ["lib/jquery-3.3.1.js", "gui.js", "borderify.js"],
+      "all_frames": true,
+      "run_at": "document_end"
+    },
+    {
+      "exclude_matches": ["*://*.facebook.com/ajax/*", "*://*.facebook.com/xti.php*", "*://*.facebook.com/settings/*",
+        "*://*.facebook.com/bookmarks/lists/*", "*://*.facebook.com/lists/*", "*://*.facebook.com/*.*/about*",
+        "*://*.facebook.com/search/*"],
+      "matches": ["*://*.facebook.com/", "*://*.facebook.com/*.*",
+        "*://*.facebook.com/ajax/pagelet/generic.php/TimelineWallColumn"],
+      "js": ["lib/jquery-3.3.1.js", "lib/arrive.min.js", "gui.js", "situationTimeline.js"],
+      "css": ["extGroups.css"],
+      "all_frames": true,
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["*://*.facebook.com/*.*/about*", "*://*.facebook.com/ajax/pagelet/generic.php/TimelineMedleyView*",
+        "https://www.facebook.com/profile/edit/infotab/forms/*"],
+      "js": ["lib/jquery-3.3.1.js", "gui.js", "situationAbout.js"],
+      "css": ["extGroups.css"],
+      "all_frames": true,
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["*://*.facebook.com/settings*"],
+      "js": ["lib/jquery-3.3.1.js", "situationApp.js"],
+      "all_frames": true,
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["*://*.facebook.com/search/apps*"],
+      "js": ["lib/jquery-3.3.1.js", "gui.js", "situationUseApp.js"],
+      "all_frames": true,
+      "run_at": "document_end"
+    },
+    {
+      "matches": ["*://*.facebook.com/bookmarks/lists/*"],
+      "js": ["lib/jquery-3.3.1.js", "gui.js", "allLists.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["*://*.facebook.com/lists/*"],
+      "js": ["lib/jquery-3.3.1.js", "gui.js", "listsOfFriends.js"],
+      "all_frames": true,
+      "run_at": "document_idle"
+    },
+    {
+      "matches": ["*://*.facebook.com/settings"],
+      "js": ["settingsSetter.js"]
+    }
+  ]
+
+}
