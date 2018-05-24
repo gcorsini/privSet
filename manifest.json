@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "PrivSec",
-  "version": "4.0",
+  "version": "0.4",
   "author": "Astrid  Bagué  and  Guillaume  Corsini",
 
   "description": "Privacy security increased on Facebook through a more intuitive UI and feedback.",
@@ -15,12 +15,6 @@
   ],
 
   "content_scripts": [
-    {
-      "matches": ["*://*.mozilla.org/*", "*://*.facebook.com/*"],
-      "js": ["lib/jquery-3.3.1.js", "gui.js", "borderify.js"],
-      "all_frames": true,
-      "run_at": "document_end"
-    },
     {
       "exclude_matches": ["*://*.facebook.com/ajax/*", "*://*.facebook.com/xti.php*", "*://*.facebook.com/settings/*",
         "*://*.facebook.com/bookmarks/lists/*", "*://*.facebook.com/lists/*", "*://*.facebook.com/*.*/about*",
