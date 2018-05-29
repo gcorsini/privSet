@@ -14,6 +14,26 @@ PrivSec is a browser extension for Mozilla Firefox and Google Chrome, which adap
 The goal is to provide a more intuitive and interactive way for users to set their privacy settings according to their needs.
 An additional benefit is the fact the users increase their privacy awareness.
 
+## How to install PrivSec?
+
+
+First download the code. If you downloaded it as a zip file, then you have to extract it. The next steps depend on your browser:
+
+### Mozilla Firefox
+
+1. Open your browser.
+2. Navigate to [about:debugging#addons](about:debugging#addons).
+3. Click on the *Load Temporary Add-on*.
+4. Select the file *manifest.json* inside the folder containing the downloaded code.
+
+### Google Chrome
+
+1. Open your browser.
+2. Navigate to [chrome://extensions](chrome://extensions).
+3. Activate the *developer mode*, if it isn't on yet.
+4. Click on the *Load Temporary Add-on*.
+5. Select the folder containing the downloaded code.
+
 
 ## Where was PrivSec created and by whom?
 
