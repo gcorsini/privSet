@@ -1,13 +1,13 @@
 {
   "manifest_version": 2,
-  "name": "PrivSec",
+  "name": "PrivSet",
   "version": "0.4",
   "author": "Astrid  Bagué  and  Guillaume  Corsini",
 
   "description": "Privacy security increased on Facebook through a more intuitive UI and feedback.",
 
   "icons": {
-    "48": "icons/LogoPrivSec3square.jpg"
+    "48": "icons/LogoPrivSet.JPG"
   },
 
   "permissions": [
