@@ -1,7 +1,7 @@
 **PROTOTYPE** Currently, this extension is still in the early stage of a prototype.
 
 
-![PrivSet Logo](icons/LogoPrivSet.jpg "PrivSet Logo")
+![PrivSet Logo](icons/LogoPrivSet.JPG "PrivSet Logo")
 
 
 # PrivSet: A browser extension that intuitively increases your privacy on Facebook
