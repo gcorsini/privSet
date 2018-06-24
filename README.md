@@ -1,20 +1,20 @@
 **PROTOTYPE** Currently, this extension is still in the early stage of a prototype.
 
 
-![PrivSec Logo](icons/LogoPrivSec3.jpg "PrivSec Logo")
+![PrivSet Logo](icons/LogoPrivSet.jpg "PrivSet Logo")
 
 
-# PrivSec: A browser extension that intuitively increases your privacy on Facebook
+# PrivSet: A browser extension that intuitively increases your privacy on Facebook
 
 
-## What is PrivSec?
+## What is PrivSet?
 
 
-PrivSec is a browser extension for Mozilla Firefox and Google Chrome, which adapts the user interface of Facebook.
+PrivSet is a browser extension for Mozilla Firefox and Google Chrome, which adapts the user interface of Facebook.
 The goal is to provide a more intuitive and interactive way for users to set their privacy settings according to their needs.
 An additional benefit is the fact the users increase their privacy awareness.
 
-## How to install PrivSec?
+## How to install PrivSet?
 
 
 First download the code. If you downloaded it as a zip file, then you have to extract it. The next steps depend on your browser:
@@ -35,10 +35,10 @@ First download the code. If you downloaded it as a zip file, then you have to ex
 5. Select the folder containing the downloaded code.
 
 
-## Where was PrivSec created and by whom?
+## Where was PrivSet created and by whom?
 
 
-PrivSec was created at the University of Fribourg in Switzerland.
+PrivSet was created at the University of Fribourg in Switzerland.
 It was a project during the Seminar "Web Analysis and Monitoring" by the students Astrid  Bagué  and  Guillaume  Corsini.
 
 
